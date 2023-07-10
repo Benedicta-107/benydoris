@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "MADAM App",
+    "slug": "madam-app",
+    "description": "This is a Food Marketing Delivery App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#286335"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.benedicta.madamapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#286335"
+      },
+      "package": "com.benedicta.madamapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3bf8770a-33ad-476b-9b7e-ea05e7721858"
+      }
+    }
+  }
+}
